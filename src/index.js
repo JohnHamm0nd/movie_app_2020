@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from './App';
-import App2 from './App2';
+//import App2 from './App2';
+import Movie from './Movie';
 
 
-ReactDOM.render(<App2 />, document.getElementById('movie'));
+ReactDOM.render(<Movie />, document.getElementById('movie'));

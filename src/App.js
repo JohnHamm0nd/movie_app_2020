@@ -1,5 +1,5 @@
 import React from 'react';
-import ProptTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 //인자가 오브젝트로 넘어오기 때문에
@@ -20,9 +20,9 @@ function Food({name, image, rating}) {
 
 Food.propTypes = {
   //타입체크
-  name: ProptTypes.string.isRequired,
-  image: ProptTypes.string.isRequired,
-  rating: ProptTypes.number
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  rating: PropTypes.number
   //isRequired 은 필수인지 아닌지, 없으면 인자가 없어도 된다
 };
 
